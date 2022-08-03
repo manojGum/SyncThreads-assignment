@@ -21,12 +21,22 @@
     background-color: #1877f2;
     border: 1px solid #1877f2;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0.5rem 0;
+    padding: .65rem;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+   
 }
-.hello{
-    color: red;
+.login > .button>.link{
+    text-decoration: none;
+    color: white;
+}
+
+.login > .button:hover{
+    background-color: #26cf3d;
+    border: 1px solid #1877f2;
+   
+   
 }
